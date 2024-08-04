@@ -52,13 +52,13 @@ local options = {
 		c = {
 			"cd $dir ;",
 			"gcc $fileName",
-			"-o $fileNameWithoutExt ;",
+			"-o output/$fileNameWithoutExt ;",
 			"$dir/output/$fileNameWithoutExt",
 		},
 		cpp = {
 			"cd $dir ;",
 			"g++ $fileName",
-			"-o $fileNameWithoutExt ;",
+			"-o output/$fileNameWithoutExt ;",
 			"$dir/output/$fileNameWithoutExt",
 		},
 		python = "python -u",
