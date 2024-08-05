@@ -71,7 +71,7 @@ local options = {
 		},
     kotlin = {
       "cd $dir ;",
-      "kotlinc $fileName -d output/$fileNameWithoutExt.jar ;",
+      "kotlinc $fileName -include-runtime -d output/$fileNameWithoutExt.jar ;",
       "java -jar output/$fileNameWithoutExt.jar"
     },
 	},
