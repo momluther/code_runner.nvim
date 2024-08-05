@@ -69,6 +69,11 @@ local options = {
 			"rustc $fileName ;",
 			"$dir/$fileNameWithoutExt",
 		},
+    kotlin = {
+      "cd $dir ;",
+      "kotlinc $fileName -d output/$fileNameWithoutExt.jar ;",
+      "java -jar output/$fileNameWithoutExt.jar"
+    },
 	},
 	project_path = "",
 	project = {},
