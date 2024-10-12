@@ -73,10 +73,6 @@ local options = {
       "cd $dir ;",
       "kotlinc $fileName -include-runtime -d output/$fileNameWithoutExt.jar ;",
       "java -jar output/$fileNameWithoutExt.jar"
-    },
-    ahk = {
-      "cd $dir ;",
-      "start $dir/$fileName ;"
     }
 	},
 	project_path = "",
