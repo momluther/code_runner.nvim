@@ -77,6 +77,7 @@ local options = {
     ahk = {
       "cd $dir ;",
       "start $dir/$fileName ;"
+    }
 	},
 	project_path = "",
 	project = {},
